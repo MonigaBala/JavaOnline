@@ -1,0 +1,11 @@
+package com.interfaceonline.implDemo;
+
+public class Bird implements Flyable {
+
+	@Override
+	public void fly() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

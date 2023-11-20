@@ -1,0 +1,17 @@
+package com.interfaceonline.implDemo;
+
+public class Parrot extends Bird implements Flyable, Talkable {
+
+	@Override
+	public void talk() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void fly() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.interfaceonline.implDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Bird bird = new Eagle("Eagle");
+		bird.printName();
+
+		Flyable fly = (Flyable) bird;
+		fly.fly();
+
+		bird = new Parrot("Parrot");
+		bird.printName();
+
+		fly = (Flyable) bird;
+		fly.fly();
+
+		Talkable talkable = (Talkable) bird;
+		talkable.talk();
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.interfaceonline.implDemoTwo;
+
+public interface Gamer {
+void outdoorGames();
+void indoorGames();
+}
+

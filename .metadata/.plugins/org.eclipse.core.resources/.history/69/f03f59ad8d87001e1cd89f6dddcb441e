@@ -1,0 +1,15 @@
+package com.interfaceonline.implDemo;
+
+public class Bird {
+String name;
+
+	public Bird(String name) {
+	super();
+	this.name = name;
+}
+void printName() {
+	System.out.println("Name : "+name);
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.interfaceonline.implDemoTwo;
+
+public class Manager extends Employee implements Recreation {
+
+	public Manager(String name, double salary) {
+		super(name, salary);
+	}
+
+	@Override
+	public void theatreClub() {
+System.out.println("Standup comedy weekend");
+	}
+
+	@Override
+	public void musicClub() {
+System.out.println("Weekend music party");
+	}
+
+}

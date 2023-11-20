@@ -1,0 +1,14 @@
+package com.interfaceonline.implDemo;
+
+public class Eagle extends Bird implements Flyable {
+
+	public Eagle(String name) {
+		super(name);
+	}
+
+	@Override
+	public void fly() {
+       System.out.println(name +" flies very high");
+	}
+
+}

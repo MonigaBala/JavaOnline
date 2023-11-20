@@ -1,0 +1,16 @@
+package com.interfaceonline.implDemo;
+
+public class Bird implements Flyable {
+String name;
+
+	public Bird(String name) {
+	super();
+	this.name = name;
+}
+
+	@Override
+	public void fly() {
+
+	}
+
+}

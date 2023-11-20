@@ -1,0 +1,6 @@
+package com.interfaceonline.implDemo;
+
+public interface Talkable {
+	void talk();
+
+}

@@ -1,0 +1,29 @@
+package com.interfaceonline.implDemoTwo;
+
+public class Programmer extends Employee implements Recreation, Gamer {
+
+	@Override
+	public void outdoorGames() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void indoorGames() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void theatreClub() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void musicClub() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.interfaceonline.implDemoTwo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Employee manager = new Manager("Ram", 2000);
+		manager.getDetails();
+		
+		Recreation recreation = (Recreation) manager;
+		recreation.musicClub();
+		recreation.theatreClub();
+		System.out.println(Recreation.PROVIDER);
+		
+		Employee programmer = new Programmer("Sam", 4000);
+		programmer.getDetails();
+		
+		recreation = (Recreation) programmer;
+		recreation.musicClub();
+		recreation.theatreClub();
+
+		Gamer gamer = (Gamer) programmer;
+		gamer.indoorGames();
+		gamer.outdoorGames();
+		
+		BonusCalculator bonus=(BonusCalculator) programmer;
+		bonus.calculateBonus();
+
+	}
+
+}

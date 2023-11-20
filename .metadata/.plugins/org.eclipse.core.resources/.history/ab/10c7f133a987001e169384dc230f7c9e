@@ -1,0 +1,17 @@
+package com.interfaceonline.implDemoTwo;
+
+public class Manager extends Employee implements Recreation {
+
+	@Override
+	public void theatreClub() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void musicClub() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

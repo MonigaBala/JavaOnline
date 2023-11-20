@@ -1,0 +1,8 @@
+package com.interfaceonline.implDemoTwo;
+
+public interface Recreation {
+	String PROVIDER="ABC Arts Club";
+	void theatreClub();
+	void musicClub();
+	
+}
