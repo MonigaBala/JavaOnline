@@ -1,4 +1,4 @@
-package com.interfaceonline.implDemoOne;
+package com.interfaceonline.implDemoOne.Interfaces;
 
 /**
  * Functional Interface with public abstract talk() method.

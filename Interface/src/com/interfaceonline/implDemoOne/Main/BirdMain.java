@@ -1,4 +1,10 @@
-package com.interfaceonline.implDemoOne;
+package com.interfaceonline.implDemoOne.Main;
+
+import com.interfaceonline.implDemoOne.Interfaces.Flyable;
+import com.interfaceonline.implDemoOne.Interfaces.Talkable;
+import com.interfaceonline.implDemoOne.SuperAndSubClass.Bird;
+import com.interfaceonline.implDemoOne.SuperAndSubClass.Eagle;
+import com.interfaceonline.implDemoOne.SuperAndSubClass.Parrot;
 
 /**
  * Main class to create instance for both subclasses Eagle and Parrot with

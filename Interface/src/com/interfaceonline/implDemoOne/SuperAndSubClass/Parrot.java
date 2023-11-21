@@ -1,4 +1,7 @@
-package com.interfaceonline.implDemoOne;
+package com.interfaceonline.implDemoOne.SuperAndSubClass;
+
+import com.interfaceonline.implDemoOne.Interfaces.Flyable;
+import com.interfaceonline.implDemoOne.Interfaces.Talkable;
 
 /**
  * Parrot class is a subclass of Bird and it implements both Talkable and
@@ -23,7 +26,7 @@ public class Parrot extends Bird implements Flyable, Talkable {
 		System.out.println(name + " flies low");
 	}
 
-	void makeSound() { // Own method of Parrot class
+	public void makeSound() { // Own method of Parrot class
 		System.out.println(name + " sounds as kiki");
 	}
 }

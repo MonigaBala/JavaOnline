@@ -1,4 +1,6 @@
-package com.interfaceonline.implDemoOne;
+package com.interfaceonline.implDemoOne.SuperAndSubClass;
+
+import com.interfaceonline.implDemoOne.Interfaces.Flyable;
 
 /**
  * Subclass Eagle extends Bird and also implements interface Flyable to get

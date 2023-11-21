@@ -1,4 +1,4 @@
-package com.interfaceonline.implDemoOne;
+package com.interfaceonline.implDemoOne.SuperAndSubClass;
 
 /**
  * Bird class is a Super class to two subclasses with its own method
@@ -14,7 +14,7 @@ public class Bird {
 		this.name = name;
 	}
 
-	void printName() { // Own method of Bird class .
+	public void printName() { // Own method of Bird class .
 		System.out.println("Name : " + name);
 	}
 
